@@ -1,7 +1,7 @@
 import React from 'react';
 
 const availableZipItems = [
-    { place: 'Hatyai', code: '90110' },
+    { place: 'Puket', code: '90110' },
     { place: 'Trang', code: '92000' },
     { place: 'Chiangmai', code: '50000' },
     { place: 'Khonkaen', code: '40000' },
