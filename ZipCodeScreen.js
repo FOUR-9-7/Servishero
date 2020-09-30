@@ -4,10 +4,10 @@ const availableZipItems = [
     { place: 'Puket', code: '90110' },
     { place: 'Trang', code: '92000' },
     { place: 'Chiangmai', code: '50000' },
-    { place: 'Khonkaen', code: '40000' },
-    { place: 'Chonburi', code: '20000' },
+    { place: 'Khonkdsaen', code: '40000' },
+    { place: 'Chonburifd', code: '20000' },
    ]
-   const ZipItem = ({place, code,navigation}) => (
+   const cdfcd = ({place, code,navigation}) => (
        <TouchableHighlight onPress={()=>{
            navigation.navigate('Weather',{zipCode: code})
        }}>
