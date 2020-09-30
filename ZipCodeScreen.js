@@ -1,7 +1,4 @@
 import React from 'react';
-import { FlatList,View,Text, StyleSheet, ImageBackground } from 'react-native'
-import { TouchableHighlight } from 'react-native-gesture-handler';
-import { useNavigation } from '@react-navigation/native';
 
 const availableZipItems = [
     { place: 'Hatyai', code: '90110' },
